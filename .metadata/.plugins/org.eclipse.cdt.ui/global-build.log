@@ -1,0 +1,1430 @@
+23:23:19 **** Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f446retx.d" -MT"Core/Startup/startup_stm32f446retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f446retx.o" "../Core/Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c: In function 'generarSin':
+../Core/Src/main.c:103:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+  103 |         for (int a=0,a<size;a++){
+      |                       ^
+../Core/Src/main.c:103:32: error: expected ';' before ')' token
+  103 |         for (int a=0,a<size;a++){
+      |                                ^
+      |                                ;
+../Core/Src/main.c:104:23: error: 'i' undeclared (first use in this function)
+  104 |                 Ysine[i]=((sin(a*2*PI/size)+1)*(4096/2));
+      |                       ^
+../Core/Src/main.c:104:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:23:49 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'generarSin':
+../Core/Src/main.c:103:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+  103 |         for (int a=0,a<size;a++){
+      |                       ^
+../Core/Src/main.c:103:32: error: expected ';' before ')' token
+  103 |         for (int a=0,a<size;a++){
+      |                                ^
+      |                                ;
+../Core/Src/main.c:104:23: error: 'i' undeclared (first use in this function)
+  104 |                 Ysine[i]=((sin(a*2*PI/size)+1)*(4096/2));
+      |                       ^
+../Core/Src/main.c:104:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:24:07 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  14432	     12	   1900	  16344	   3fd8	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+20:31:33 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'playtone':
+../Core/Src/main.c:126:33: error: 'puseBT' undeclared (first use in this function); did you mean 'pauseBT'?
+  126 |                 if(pause!=NULL) puseBT=pause[i]-duration[i];
+      |                                 ^~~~~~
+      |                                 pauseBT
+../Core/Src/main.c:126:33: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'calcularARR':
+../Core/Src/main.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+  113 | }
+      | ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:32:38 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'playtone':
+../Core/Src/main.c:126:33: error: 'puseBT' undeclared (first use in this function); did you mean 'pauseBT'?
+  126 |                 if(pause!=NULL) puseBT=pause[i]-duration[i];
+      |                                 ^~~~~~
+      |                                 pauseBT
+../Core/Src/main.c:126:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:32:54 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    336	   2416	  25932	   654c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+20:36:16 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23180	    336	   2416	  25932	   654c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+20:46:28 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+20:48:48 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+20:50:14 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+20:51:27 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+21:26:59 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+21:28:53 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+21:30:09 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+21:35:04 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+21:38:29 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23196	    484	   2412	  26092	   65ec	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+21:39:27 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    484	   2412	  26092	   65ec	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+21:49:52 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    484	   2412	  26092	   65ec	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+21:51:15 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    484	   2412	  26092	   65ec	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+22:00:05 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23196	    484	   2412	  26092	   65ec	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:17:49 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    484	   2412	  26068	   65d4	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:22:59 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:24:28 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23196	    336	   2416	  25948	   655c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+22:26:32 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    336	   2416	  25932	   654c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:27:24 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23188	    336	   2416	  25940	   6554	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:28:14 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23188	    336	   2416	  25940	   6554	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:29:47 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23188	    340	   2412	  25940	   6554	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:33:49 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    228	   2412	  25812	   64d4	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:34:28 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    228	   2412	  25820	   64dc	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:35:05 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    228	   2412	  25812	   64d4	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:37:43 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    524	   2412	  26108	   65fc	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:39:53 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    148	   2412	  25732	   6484	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:43:52 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    612	   2412	  26196	   6654	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:56:11 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    644	   2412	  26228	   6674	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:00:00 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    644	   2412	  26228	   6674	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:01:31 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    644	   2412	  26228	   6674	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:04:06 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    412	   2412	  25996	   658c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:05:22 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    300	   2412	  25884	   651c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:10:52 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	     36	   2412	  25620	   6414	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:11:25 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     36	   2412	  25628	   641c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:12:38 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     88	   2416	  25684	   6454	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:14:15 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     92	   2412	  25684	   6454	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:15:10 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     88	   2416	  25684	   6454	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:16:00 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     72	   2416	  25668	   6444	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:16:35 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     80	   2416	  25676	   644c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:19:50 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:102:52: error: stray '\302' in program
+  102 |             293.66, 293.66                         <U+00A0>//<U+00A0>comp<U+00E1>s<U+00A0>28
+      |                                                    ^~~~~~~~
+../Core/Src/main.c:137:37: error: stray '\302' in program
+  137 |             2.0, 2.0                <U+00A0>//<U+00A0>comp<U+00E1>s<U+00A0>28
+      |                                     ^~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:252:20: warning: passing argument 1 of 'playTone' from incompatible pointer type [-Wincompatible-pointer-types]
+  252 |           playTone(game_melody,game_duration,NULL,sizeof(game_melody)/sizeof(game_melody[0]));
+      |                    ^~~~~~~~~~~
+      |                    |
+      |                    float *
+../Core/Src/main.c:183:20: note: expected 'int *' but argument is of type 'float *'
+  183 | void playTone(int *tone, int *duration,int *pause, int Nsize){
+      |               ~~~~~^~~~
+../Core/Src/main.c:252:32: warning: passing argument 2 of 'playTone' from incompatible pointer type [-Wincompatible-pointer-types]
+  252 |           playTone(game_melody,game_duration,NULL,sizeof(game_melody)/sizeof(game_melody[0]));
+      |                                ^~~~~~~~~~~~~
+      |                                |
+      |                                float *
+../Core/Src/main.c:183:31: note: expected 'int *' but argument is of type 'float *'
+  183 | void playTone(int *tone, int *duration,int *pause, int Nsize){
+      |                          ~~~~~^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:21:33 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:102:9: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |         ^~~~~~~~
+../Core/Src/main.c:102:10: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                 ^~~~~~~~
+../Core/Src/main.c:102:11: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                         ^~~~~~~~
+../Core/Src/main.c:102:12: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                                 ^~~~~~~~
+../Core/Src/main.c:102:17: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                                             ^~~~~~~~
+../Core/Src/main.c:137:9: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |         ^~~~~~~~
+../Core/Src/main.c:137:10: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                 ^~~~~~~~
+../Core/Src/main.c:137:11: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                         ^~~~~~~~
+../Core/Src/main.c:137:12: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                                 ^~~~~~~~
+../Core/Src/main.c:137:17: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                                             ^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:22:05 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:102:9: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |         ^~~~~~~~
+../Core/Src/main.c:102:10: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                 ^~~~~~~~
+../Core/Src/main.c:102:11: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                         ^~~~~~~~
+../Core/Src/main.c:102:12: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                                 ^~~~~~~~
+../Core/Src/main.c:102:17: error: stray '\302' in program
+  102 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294
+      |                                             ^~~~~~~~
+../Core/Src/main.c:137:9: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |         ^~~~~~~~
+../Core/Src/main.c:137:10: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                 ^~~~~~~~
+../Core/Src/main.c:137:11: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                         ^~~~~~~~
+../Core/Src/main.c:137:12: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                                 ^~~~~~~~
+../Core/Src/main.c:137:17: error: stray '\302' in program
+  137 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                                             ^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:22:43 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:97:9: error: stray '\302' in program
+   97 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294};
+      |         ^~~~~~~~
+../Core/Src/main.c:97:10: error: stray '\302' in program
+   97 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294};
+      |                 ^~~~~~~~
+../Core/Src/main.c:97:11: error: stray '\302' in program
+   97 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294};
+      |                         ^~~~~~~~
+../Core/Src/main.c:97:12: error: stray '\302' in program
+   97 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294};
+      |                                 ^~~~~~~~
+../Core/Src/main.c:97:17: error: stray '\302' in program
+   97 |         <U+00A0><U+00A0><U+00A0><U+00A0>294,<U+00A0>294};
+      |                                             ^~~~~~~~
+../Core/Src/main.c:132:9: error: stray '\302' in program
+  132 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |         ^~~~~~~~
+../Core/Src/main.c:132:10: error: stray '\302' in program
+  132 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                 ^~~~~~~~
+../Core/Src/main.c:132:11: error: stray '\302' in program
+  132 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                         ^~~~~~~~
+../Core/Src/main.c:132:12: error: stray '\302' in program
+  132 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                                 ^~~~~~~~
+../Core/Src/main.c:132:17: error: stray '\302' in program
+  132 |         <U+00A0><U+00A0><U+00A0><U+00A0>200,<U+00A0>200
+      |                                             ^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:23:14 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     80	   2416	  25676	   644c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:24:54 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:96:39: error: stray '\302' in program
+   96 |                     330, 370, 330,294,<U+00A0>294
+      |                                       ^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+23:25:07 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    456	   2416	  26052	   65c4	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+23:26:04 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    836	   2412	  26428	   673c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:04:47 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    108	   2412	  25700	   6464	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:05:19 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    108	   2412	  25692	   645c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:05:35 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    108	   2412	  25700	   6464	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:05:58 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    108	   2412	  25700	   6464	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:06:28 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    108	   2412	  25700	   6464	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:07:59 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    108	   2412	  25700	   6464	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:09:11 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	    108	   2412	  25700	   6464	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:09:50 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	    108	   2412	  25692	   645c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:14:45 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	     84	   2412	  25668	   6444	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:16:21 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23172	     84	   2412	  25668	   6444	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+22:17:46 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23172	     44	   2412	  25628	   641c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+22:18:31 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:189:3: warning: implicit declaration of function 'playtone'; did you mean 'playTone'? [-Wimplicit-function-declaration]
+  189 |   playtone(game_melody,game_duration,NULL,(sizeof(game_melody)/sizeof(game_melody[0])));
+      |   ^~~~~~~~
+      |   playTone
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+D:/Mecatronica/semestre7/digital2/D2_proyecto2/dac_prj2/Debug/../Core/Src/main.c:189:(.text.main+0x4e): undefined reference to `playtone'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: dac_prj2.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:18:51 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23180	     44	   2412	  25636	   6424	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+18:03:10 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:153:17: error: 'falg_c' undeclared (first use in this function); did you mean 'flag_c'?
+  153 |                 falg_c=1;
+      |                 ^~~~~~
+      |                 flag_c
+../Core/Src/main.c:153:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:03:22 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:153:17: error: 'falg_c' undeclared (first use in this function); did you mean 'flag_c'?
+  153 |                 falg_c=1;
+      |                 ^~~~~~
+      |                 flag_c
+../Core/Src/main.c:153:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:03:46 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:153:17: error: 'falg_c' undeclared (first use in this function); did you mean 'flag_c'?
+  153 |                 falg_c=1;
+      |                 ^~~~~~
+      |                 flag_c
+../Core/Src/main.c:153:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:04:20 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:153:17: error: 'falg_c' undeclared (first use in this function); did you mean 'flag_c'?
+  153 |                 falg_c=1;
+      |                 ^~~~~~
+      |                 flag_c
+../Core/Src/main.c:153:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:04:45 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:153:17: error: 'falg_c' undeclared (first use in this function); did you mean 'flag_c'?
+  153 |                 falg_c=1;
+      |                 ^~~~~~
+      |                 flag_c
+../Core/Src/main.c:153:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:04:57 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:153:17: error: 'falg_c' undeclared (first use in this function); did you mean 'flag_c'?
+  153 |                 falg_c=1;
+      |                 ^~~~~~
+      |                 flag_c
+../Core/Src/main.c:153:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:06:34 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:153:17: error: 'falg_c' undeclared (first use in this function); did you mean 'flag_c'?
+  153 |                 falg_c=1;
+      |                 ^~~~~~
+      |                 flag_c
+../Core/Src/main.c:153:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:09:29 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26244	    208	   2488	  28940	   710c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+18:10:09 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26244	    208	   2488	  28940	   710c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+18:46:10 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26244	    208	   2488	  28940	   710c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+18:49:56 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26284	    208	   2488	  28980	   7134	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+19:09:23 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26332	    208	   2496	  29036	   716c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+19:12:22 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26308	    212	   2492	  29012	   7154	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+19:16:18 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26324	    212	   2492	  29028	   7164	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+20:54:38 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:94:10: warning: excess elements in scalar initializer
+   94 |     220, 261, 329, 196, 175, 293,
+      |          ^~~
+../Core/Src/main.c:94:10: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:94:15: warning: excess elements in scalar initializer
+   94 |     220, 261, 329, 196, 175, 293,
+      |               ^~~
+../Core/Src/main.c:94:15: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:94:20: warning: excess elements in scalar initializer
+   94 |     220, 261, 329, 196, 175, 293,
+      |                    ^~~
+../Core/Src/main.c:94:20: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:94:25: warning: excess elements in scalar initializer
+   94 |     220, 261, 329, 196, 175, 293,
+      |                         ^~~
+../Core/Src/main.c:94:25: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:94:30: warning: excess elements in scalar initializer
+   94 |     220, 261, 329, 196, 175, 293,
+      |                              ^~~
+../Core/Src/main.c:94:30: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:95:5: warning: excess elements in scalar initializer
+   95 |     220, 261, 293, 261, 220, 0
+      |     ^~~
+../Core/Src/main.c:95:5: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:95:10: warning: excess elements in scalar initializer
+   95 |     220, 261, 293, 261, 220, 0
+      |          ^~~
+../Core/Src/main.c:95:10: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:95:15: warning: excess elements in scalar initializer
+   95 |     220, 261, 293, 261, 220, 0
+      |               ^~~
+../Core/Src/main.c:95:15: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:95:20: warning: excess elements in scalar initializer
+   95 |     220, 261, 293, 261, 220, 0
+      |                    ^~~
+../Core/Src/main.c:95:20: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:95:25: warning: excess elements in scalar initializer
+   95 |     220, 261, 293, 261, 220, 0
+      |                         ^~~
+../Core/Src/main.c:95:25: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:95:30: warning: excess elements in scalar initializer
+   95 |     220, 261, 293, 261, 220, 0
+      |                              ^
+../Core/Src/main.c:95:30: note: (near initialization for 'menu_melody')
+../Core/Src/main.c:97:14: warning: excess elements in scalar initializer
+   97 |         200, 200, 200, 200, 200, 200,
+      |              ^~~
+../Core/Src/main.c:97:14: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:97:19: warning: excess elements in scalar initializer
+   97 |         200, 200, 200, 200, 200, 200,
+      |                   ^~~
+../Core/Src/main.c:97:19: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:97:24: warning: excess elements in scalar initializer
+   97 |         200, 200, 200, 200, 200, 200,
+      |                        ^~~
+../Core/Src/main.c:97:24: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:97:29: warning: excess elements in scalar initializer
+   97 |         200, 200, 200, 200, 200, 200,
+      |                             ^~~
+../Core/Src/main.c:97:29: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:97:34: warning: excess elements in scalar initializer
+   97 |         200, 200, 200, 200, 200, 200,
+      |                                  ^~~
+../Core/Src/main.c:97:34: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:98:9: warning: excess elements in scalar initializer
+   98 |         200, 200, 200, 200, 200, 400
+      |         ^~~
+../Core/Src/main.c:98:9: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:98:14: warning: excess elements in scalar initializer
+   98 |         200, 200, 200, 200, 200, 400
+      |              ^~~
+../Core/Src/main.c:98:14: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:98:19: warning: excess elements in scalar initializer
+   98 |         200, 200, 200, 200, 200, 400
+      |                   ^~~
+../Core/Src/main.c:98:19: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:98:24: warning: excess elements in scalar initializer
+   98 |         200, 200, 200, 200, 200, 400
+      |                        ^~~
+../Core/Src/main.c:98:24: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:98:29: warning: excess elements in scalar initializer
+   98 |         200, 200, 200, 200, 200, 400
+      |                             ^~~
+../Core/Src/main.c:98:29: note: (near initialization for 'menu_duration')
+../Core/Src/main.c:98:34: warning: excess elements in scalar initializer
+   98 |         200, 200, 200, 200, 200, 400
+      |                                  ^~~
+../Core/Src/main.c:98:34: note: (near initialization for 'menu_duration')
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:236:105: error: subscripted value is neither array nor pointer nor vector
+  236 |                           playTone(menu_melody,menu_duration,NULL,sizeof(menu_melody)/sizeof(menu_melody[0]));
+      |                                                                                                         ^
+../Core/Src/main.c:236:36: warning: passing argument 1 of 'playTone' makes pointer from integer without a cast [-Wint-conversion]
+  236 |                           playTone(menu_melody,menu_duration,NULL,sizeof(menu_melody)/sizeof(menu_melody[0]));
+      |                                    ^~~~~~~~~~~
+      |                                    |
+      |                                    int
+../Core/Src/main.c:146:20: note: expected 'int *' but argument is of type 'int'
+  146 | void playTone(int *tone, int *duration,int *pause, int Nsize){
+      |               ~~~~~^~~~
+../Core/Src/main.c:236:48: warning: passing argument 2 of 'playTone' makes pointer from integer without a cast [-Wint-conversion]
+  236 |                           playTone(menu_melody,menu_duration,NULL,sizeof(menu_melody)/sizeof(menu_melody[0]));
+      |                                                ^~~~~~~~~~~~~
+      |                                                |
+      |                                                int
+../Core/Src/main.c:146:31: note: expected 'int *' but argument is of type 'int'
+  146 | void playTone(int *tone, int *duration,int *pause, int Nsize){
+      |                          ~~~~~^~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+20:56:01 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26396	    308	   2492	  29196	   720c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+01:00:22 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-size  dac_prj2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26396	    308	   2492	  29196	   720c	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+01:17:35 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:311:13: error: invalid storage class for function 'MX_DAC_Init'
+  311 | static void MX_DAC_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:351:13: error: invalid storage class for function 'MX_TIM1_Init'
+  351 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:425:13: error: invalid storage class for function 'MX_TIM6_Init'
+  425 | static void MX_TIM6_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:463:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+  463 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:496:13: error: invalid storage class for function 'MX_USART3_UART_Init'
+  496 | static void MX_USART3_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:527:13: error: invalid storage class for function 'MX_DMA_Init'
+  527 | static void MX_DMA_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:545:13: error: invalid storage class for function 'MX_GPIO_Init'
+  545 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:606:1: error: expected declaration or statement at end of input
+  606 | }
+      | ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:114:13: warning: 'MX_GPIO_Init' used but never defined
+  114 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:115:13: warning: 'MX_DMA_Init' used but never defined
+  115 | static void MX_DMA_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:116:13: warning: 'MX_USART2_UART_Init' used but never defined
+  116 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:117:13: warning: 'MX_DAC_Init' used but never defined
+  117 | static void MX_DAC_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:118:13: warning: 'MX_TIM1_Init' used but never defined
+  118 | static void MX_TIM1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:119:13: warning: 'MX_TIM6_Init' used but never defined
+  119 | static void MX_TIM6_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:120:13: warning: 'MX_USART3_UART_Init' used but never defined
+  120 | static void MX_USART3_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:597:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  597 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:570:6: warning: 'HAL_UART_RxCpltCallback' defined but not used [-Wunused-function]
+  570 | void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:545:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  545 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:527:13: warning: 'MX_DMA_Init' defined but not used [-Wunused-function]
+  527 | static void MX_DMA_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:496:13: warning: 'MX_USART3_UART_Init' defined but not used [-Wunused-function]
+  496 | static void MX_USART3_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:463:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+  463 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:425:13: warning: 'MX_TIM6_Init' defined but not used [-Wunused-function]
+  425 | static void MX_TIM6_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:351:13: warning: 'MX_TIM1_Init' defined but not used [-Wunused-function]
+  351 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:311:13: warning: 'MX_DAC_Init' defined but not used [-Wunused-function]
+  311 | static void MX_DAC_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:263:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+  263 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+01:19:27 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:307:13: error: invalid storage class for function 'MX_DAC_Init'
+  307 | static void MX_DAC_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:347:13: error: invalid storage class for function 'MX_TIM1_Init'
+  347 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:421:13: error: invalid storage class for function 'MX_TIM6_Init'
+  421 | static void MX_TIM6_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:459:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+  459 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:492:13: error: invalid storage class for function 'MX_USART3_UART_Init'
+  492 | static void MX_USART3_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:523:13: error: invalid storage class for function 'MX_DMA_Init'
+  523 | static void MX_DMA_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:541:13: error: invalid storage class for function 'MX_GPIO_Init'
+  541 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:602:1: error: expected declaration or statement at end of input
+  602 | }
+      | ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:110:13: warning: 'MX_GPIO_Init' used but never defined
+  110 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:111:13: warning: 'MX_DMA_Init' used but never defined
+  111 | static void MX_DMA_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:112:13: warning: 'MX_USART2_UART_Init' used but never defined
+  112 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:113:13: warning: 'MX_DAC_Init' used but never defined
+  113 | static void MX_DAC_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:114:13: warning: 'MX_TIM1_Init' used but never defined
+  114 | static void MX_TIM1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:115:13: warning: 'MX_TIM6_Init' used but never defined
+  115 | static void MX_TIM6_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:116:13: warning: 'MX_USART3_UART_Init' used but never defined
+  116 | static void MX_USART3_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:593:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  593 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:566:6: warning: 'HAL_UART_RxCpltCallback' defined but not used [-Wunused-function]
+  566 | void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:541:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  541 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:523:13: warning: 'MX_DMA_Init' defined but not used [-Wunused-function]
+  523 | static void MX_DMA_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:492:13: warning: 'MX_USART3_UART_Init' defined but not used [-Wunused-function]
+  492 | static void MX_USART3_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:459:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+  459 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:421:13: warning: 'MX_TIM6_Init' defined but not used [-Wunused-function]
+  421 | static void MX_TIM6_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:347:13: warning: 'MX_TIM1_Init' defined but not used [-Wunused-function]
+  347 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:307:13: warning: 'MX_DAC_Init' defined but not used [-Wunused-function]
+  307 | static void MX_DAC_Init(void)
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:259:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+  259 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+01:20:09 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26452	    404	   2492	  29348	   72a4	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
+01:32:19 **** Incremental Build of configuration Debug for project dac_prj2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dac_prj2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Mecatronica\semestre7\digital2\D2_proyecto2\dac_prj2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dac_prj2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dac_prj2.elf
+ 
+arm-none-eabi-size  dac_prj2.elf 
+arm-none-eabi-objdump -h -S dac_prj2.elf  > "dac_prj2.list"
+   text	   data	    bss	    dec	    hex	filename
+  26508	    460	   2492	  29460	   7314	dac_prj2.elf
+Finished building: default.size.stdout
+ 
+Finished building: dac_prj2.list
+ 
