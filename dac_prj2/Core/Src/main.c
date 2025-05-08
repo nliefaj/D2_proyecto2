@@ -137,11 +137,13 @@ int calcularARR(int freq);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+//Se necesita generar el seno para incluir los valores digitales y así poderlo convertir a analógico
 void generarSin(void){
 	for (int i=0;i<size;i++){
 		Ysine[i]=((sin(i*2*PI/size)+1)*(4096/2));
 	}
 }
+//Se necesita calcular el ARR para las frecuencias de la melodía
 int calcularARR(int freq){
 	if (freq==0){
 		return 0;
@@ -159,7 +161,7 @@ int calcularARR(int freq){
 void playTone(int *tone, int *duration,int *pause, int Nsize){
 	for(int i=0;i<Nsize;i++){
 
-		if (interrupt_game){
+		if (interrupt_game){//Se utiliza para manejar las interrupciones del cambio de melodías
 			noTone();
 			break;
 		}
@@ -578,7 +580,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 
 	if(uart_buffer[0]=='p'){
 		flag_p=1;
-		interrupt_game=1;
+		interrupt_game=1;//interrumpe la melodía actual
 	}else if (uart_buffer[0]=='c'){
 		flag_c=1;
 		interrupt_game=1;
@@ -589,7 +591,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 		estado='m';
 		interrupt_game=1;
 	}else if (uart_buffer[0]=='w'){
-		estado='w';
+		estado='w';// Para mantener en loop la melodía que está sonando
 		interrupt_game=1;
 	}else if (uart_buffer[0]=='l'){
 		estado='l';

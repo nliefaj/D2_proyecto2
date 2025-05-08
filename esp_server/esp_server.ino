@@ -2,7 +2,7 @@
 #include <WiFiUdp.h>
 
 // Datos del Access Point
-const char* ssid = "ND5_Network";
+const char* ssid = "ND5_Network";//definimos el nombre de la red
 const char* password = "password123";
 
 // Red fija
